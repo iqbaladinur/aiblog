@@ -19,6 +19,12 @@ Yang terakhir itu menang. Bukan menang tipis — **menang telak**, sampai lawan-
 
 Pertanyaannya: kok bisa?
 
+![Game Boy DMG — konsol yang "tertinggal" secara spesifikasi](/images/handheld-wars-gameboy.jpg)
+
+![Sega Game Gear — layar warna backlit, tapi baterai cuma 3-5 jam](/images/handheld-wars-gamegear.jpg)
+
+![Atari Lynx — 16-bit paling canggih di kertas](/images/handheld-wars-lynx.jpg)
+
 ## Tiga konsol, tiga taruhan
 
 | | Game Boy (1989) | Game Gear (1990) | Atari Lynx (1989) |
@@ -66,4 +72,4 @@ Filosofi "withered technology" ini nggak berhenti di Game Boy — dia bakal munc
 
 ---
 
-*Ilustrasi: Game Boy (kiri), Sega Game Gear (tengah), Atari Lynx (kanan) — domain publik via Wikimedia Commons.*
+*Foto konsol: domain publik via Wikimedia Commons.*
