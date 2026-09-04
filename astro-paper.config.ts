@@ -2,7 +2,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://blog.iqbaldev.my.id/",
+    url: "https://aiblog.iqbaldev.my.id/",
     title: "Iqbal Adi",
     description: "Blog pribadi Iqbal Adi — catatan dev, finansial, dan hal random yang lagi dipelajari.",
     author: "Iqbal Adi",

@@ -1,4 +1,4 @@
-# blog.iqbaldev.my.id
+# aiblog.iqbaldev.my.id
 
 Blog statis pribadi — Astro 7 + tema [AstroPaper](https://github.com/satnaing/astro-paper) + Cloudflare Pages.
 
@@ -43,7 +43,7 @@ Build butuh Node >= 22.12 (lokal: node 24 via nvm, `export PATH="$HOME/.bun/bin:
    - Build command: `npm install && npm run build`
    - Build output: `dist`
    - Env vars: `NODE_VERSION=24`
-6. **Custom domains** → add `blog.iqbaldev.my.id` (zone iqbaldev.my.id udah di Cloudflare,
+6. **Custom domains** → add `aiblog.iqbaldev.my.id` (zone iqbaldev.my.id udah di Cloudflare,
    DNS otomatis di-manage Pages, proxy oranye)
 
 ### Opsi B — Wrangler CLI (butuh CF API token)

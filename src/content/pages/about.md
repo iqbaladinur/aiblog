@@ -5,7 +5,7 @@ description: "Tentang gw dan blog ini."
 
 ## Iqbal Adi
 
-Software engineer yang sehari-hari megang 14-16 proyek fullstack sendiri — dari frontend sampe microservices. Suka banget sama hal-hal yang bisa diotomasi, di-*hack*, atau dibongkar-pasang: dari server homelab, device lawas (Nokia E63, RG35XX), sampe fan-translation game retro.
+Software engineer yang kerja di ekosistem fullstack — dari frontend sampe microservices. Suka banget sama hal-hal yang bisa diotomasi, di-*hack*, atau dibongkar-pasang: homelab, device lawas, sama game retro.
 
 ## Blog ini
 
