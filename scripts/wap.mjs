@@ -11,10 +11,10 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const POSTS_DIR = join(ROOT, "src", "content", "posts");
 const OUT = join(ROOT, "dist", "wap");
 
-// width:100% (CSS1) — bukan max-width — biar aman di WebKit lawas E63
+// width persentase (CSS1) — aman di WebKit lawas E63; gambar tampil 60% + center
 const CSS = `body{background:#f5f5f5;color:#000;font:18px/1.45 sans-serif;margin:0;padding:10px}
 h1{font-size:22px;margin:.5em 0} h2{font-size:19px;margin:1em 0 .4em} h3{font-size:17px}
-a{color:#0000cc} img{width:100%;height:auto;margin:4px 0;border:0}
+a{color:#0000cc} img{display:block;width:60%;height:auto;margin:6px auto;border:0}
 pre{background:#e8e8e8;padding:8px;overflow-x:auto;white-space:pre-wrap;font-size:15px}
 blockquote{background:#e8e8e8;padding:6px 10px;margin:8px 0;border-left:4px solid #999}
 table{border-collapse:collapse;width:100%;margin:8px 0} th,td{border:1px solid #888;padding:4px;font-size:15px;text-align:left}
