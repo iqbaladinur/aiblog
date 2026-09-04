@@ -1,17 +1,20 @@
 // Generator versi WAP ringan (khusus device lawas Nokia E63).
 // Baca semua post markdown → tulis HTML minimal text-first ke dist/wap/.
+// Gambar di-resize ke 320px + kompres (pakai sharp) → dist/wap/images/.
 // Dipanggil otomatis di akhir `bun run build` / `npm run build`.
-import { readdirSync, readFileSync, mkdirSync, writeFileSync } from "node:fs";
+import { readdirSync, readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import sharp from "sharp";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const POSTS_DIR = join(ROOT, "src", "content", "posts");
 const OUT = join(ROOT, "dist", "wap");
 
+// width:100% (CSS1) — bukan max-width — biar aman di WebKit lawas E63
 const CSS = `body{background:#f5f5f5;color:#000;font:18px/1.45 sans-serif;margin:0;padding:10px}
 h1{font-size:22px;margin:.5em 0} h2{font-size:19px;margin:1em 0 .4em} h3{font-size:17px}
-a{color:#0000cc} img{max-width:100%;height:auto;margin:6px 0}
+a{color:#0000cc} img{width:100%;height:auto;margin:4px 0;border:0}
 pre{background:#e8e8e8;padding:8px;overflow-x:auto;white-space:pre-wrap;font-size:15px}
 blockquote{background:#e8e8e8;padding:6px 10px;margin:8px 0;border-left:4px solid #999}
 table{border-collapse:collapse;width:100%;margin:8px 0} th,td{border:1px solid #888;padding:4px;font-size:15px;text-align:left}
@@ -37,10 +40,10 @@ function mdToHtml(md) {
   const lines = md.split(/\r?\n/);
   const out = [];
   let i = 0;
+  let buf = "";
   const flushPara = () => {
     if (buf) { out.push(`<p>${inline(buf)}</p>`); buf = ""; }
   };
-  let buf = "";
   while (i < lines.length) {
     const line = lines[i];
     const t = line.trim();
@@ -145,49 +148,101 @@ function page(title, bodyHtml) {
 </body></html>`;
 }
 
-const nav = (label) => `<p class="nav"><a href="/wap/">Beranda</a>${label ? " • " + label : ""}</p>`;
+const nav = () => `<p class="nav"><a href="/wap/">Beranda</a></p>`;
 
-const files = readdirSync(POSTS_DIR).filter(
-  (f) => f.endsWith(".md") && !f.startsWith("_") && !f.endsWith(".mdx")
-);
-mkdirSync(OUT, { recursive: true });
-const posts = [];
-for (const f of files) {
-  const md = readFileSync(join(POSTS_DIR, f), "utf8");
-  const { meta, body } = parseFrontmatter(md);
-  if (meta.draft === "true") continue;
-  const slug = meta.slug || f.replace(/\.md$/, "");
-  const date = meta.pubDatetime ? new Date(meta.pubDatetime) : new Date(0);
-  posts.push({ slug, meta, body, date, file: f });
-}
-posts.sort((a, b) => b.date - a.date);
-
-// --- index (daftar semua post) ---
-let list = "";
-for (const p of posts) {
-  const d = p.date.toISOString().slice(0, 10);
-  const desc = p.meta.description ? `<span class="meta"> — ${esc(p.meta.description)}</span>` : "";
-  list += `<p><a href="/wap/posts/${p.slug}/"><strong>${esc(p.meta.title || p.slug)}</strong></a><br><span class="meta">${d}${desc}</span></p>`;
-}
-writeFileSync(join(OUT, "index.html"), page("Beranda", nav("") + `<h1>Beranda</h1><p class="meta">${posts.length} tulisan — versi WAP (text-first).</p>` + list));
-
-// --- tiap post ---
-for (const p of posts) {
-  const d = p.date.toISOString().slice(0, 10);
-  const tagHtml = p.meta.tags ? `<span class="meta"> • ${esc(p.meta.tags)}</span>` : "";
-  const body = mdToHtml(p.body);
-  const dir = join(OUT, "posts", p.slug);
-  mkdirSync(dir, { recursive: true });
-  writeFileSync(join(dir, "index.html"), page(p.meta.title || p.slug, nav(`<a href="/wap/posts/">Tulisan</a>`) + `<h1>${esc(p.meta.title || p.slug)}</h1><p class="meta">${d}${tagHtml}</p>` + body));
+// --- kumpulin & kecilin gambar (resize 320px, jpeg q72) ---
+async function shrinkImage(srcRel, outRel) {
+  const src = join(ROOT, "public", "images", srcRel);
+  const out = join(OUT, "images", outRel);
+  if (!existsSync(src)) return false;
+  mkdirSync(dirname(out), { recursive: true });
+  await sharp(src)
+    .rotate()
+    .resize({ width: 320, withoutEnlargement: true })
+    .flatten({ background: "#ffffff" })
+    .jpeg({ quality: 72, mozjpeg: false })
+    .toFile(out);
+  return true;
 }
 
-// --- about ---
-try {
-  const md = readFileSync(join(ROOT, "src", "content", "pages", "about.md"), "utf8");
-  const { meta, body } = parseFrontmatter(md);
-  const dir = join(OUT, "about");
-  mkdirSync(dir, { recursive: true });
-  writeFileSync(join(dir, "index.html"), page(meta.title || "Tentang", nav(`<a href="/wap/">Beranda</a>`) + `<h1>${esc(meta.title || "Tentang")}</h1>` + mdToHtml(body)));
-} catch {}
+async function main() {
+  mkdirSync(OUT, { recursive: true });
+  const files = readdirSync(POSTS_DIR).filter(
+    (f) => f.endsWith(".md") && !f.startsWith("_") && !f.endsWith(".mdx")
+  );
+  const posts = [];
+  for (const f of files) {
+    const md = readFileSync(join(POSTS_DIR, f), "utf8");
+    const { meta, body } = parseFrontmatter(md);
+    if (meta.draft === "true") continue;
+    const slug = meta.slug || f.replace(/\.md$/, "");
+    const date = meta.pubDatetime ? new Date(meta.pubDatetime) : new Date(0);
+    posts.push({ slug, meta, body, date });
+  }
+  posts.sort((a, b) => b.date - a.date);
 
-console.log(`[wap] ${posts.length} posts → dist/wap/`);
+  // pass 1: render html + kumpulin gambar yg dipake
+  const pages = [];
+  const used = new Map(); // srcRel -> outRel
+  const collect = (html) => {
+    html.replace(/src="\/images\/([^"]+)"/g, (m, f) => {
+      if (!f.includes("..")) used.set(f, f.replace(/\.[^.]+$/, "") + ".jpg");
+      return m;
+    });
+    return html;
+  };
+  for (const p of posts) {
+    pages.push({
+      kind: "post",
+      slug: p.slug,
+      title: p.meta.title || p.slug,
+      date: p.date.toISOString().slice(0, 10),
+      tags: p.meta.tags || "",
+      html: collect(mdToHtml(p.body)),
+    });
+  }
+  const aboutRaw = existsSync(join(ROOT, "src", "content", "pages", "about.md"))
+    ? readFileSync(join(ROOT, "src", "content", "pages", "about.md"), "utf8")
+    : null;
+
+  // pass 2: kecilin gambar (parallel, tapi dibatesin biar gak rame)
+  let imgCount = 0;
+  const jobs = [...used.entries()].map(async ([srcRel, outRel]) => {
+    const ok = await shrinkImage(srcRel, outRel);
+    if (ok) imgCount++;
+  });
+  await Promise.all(jobs);
+
+  const rewrite = (html) =>
+    html.replace(/src="\/images\/([^"]+)"/g, (m, f) => {
+      const outRel = f.replace(/\.[^.]+$/, "") + ".jpg";
+      return used.has(f) ? `src="/wap/images/${outRel}"` : m;
+    });
+
+  // tulis index
+  let list = "";
+  for (const pg of pages) {
+    if (pg.kind !== "post") continue;
+    const desc = pg.tags ? ` • ${esc(pg.tags)}` : "";
+    list += `<p><a href="/wap/posts/${pg.slug}/"><strong>${esc(pg.title)}</strong></a><br><span class="meta">${pg.date}${desc}</span></p>`;
+  }
+  writeFileSync(join(OUT, "index.html"), page("Beranda", nav() + `<h1>Beranda</h1><p class="meta">${pages.length} tulisan — versi WAP (text-first).</p>` + list));
+
+  // tulis post & about
+  for (const pg of pages) {
+    const body = `<h1>${esc(pg.title)}</h1><p class="meta">${pg.date}${pg.tags ? " • " + esc(pg.tags) : ""}</p>` + rewrite(pg.html);
+    const dir = join(OUT, "posts", pg.slug);
+    mkdirSync(dir, { recursive: true });
+    writeFileSync(join(dir, "index.html"), page(pg.title, nav() + body));
+  }
+  if (aboutRaw) {
+    const { meta, body } = parseFrontmatter(aboutRaw);
+    const dir = join(OUT, "about");
+    mkdirSync(dir, { recursive: true });
+    writeFileSync(join(dir, "index.html"), page(meta.title || "Tentang", nav() + `<h1>${esc(meta.title || "Tentang")}</h1>` + rewrite(mdToHtml(body))));
+  }
+
+  console.log(`[wap] ${pages.length} posts, ${imgCount} gambar (320px) → dist/wap/`);
+}
+
+await main();
