@@ -35,10 +35,10 @@ Build butuh Node >= 22.12 (lokal: node 24 via nvm, `export PATH="$HOME/.bun/bin:
 ### Opsi A — Git integration (recommended, auto-deploy tiap push)
 
 1. `git init && git add -A && git commit -m "init blog"`
-2. Bikin repo GitHub: `iqbaladinur/blog` (via dashboard github.com)
-3. `git remote add origin git@github.com:iqbaladinur/blog.git && git push -u origin main`
+2. Bikin repo GitHub: `iqbaladinur/aiblog` (via dashboard github.com)
+3. `git remote add origin git@github.com:iqbaladinur/aiblog.git && git push -u origin main`
 4. Cloudflare dashboard → **Workers & Pages → Create → Pages → Connect to Git**
-   → pilih repo `iqbaladinur/blog`
+   → pilih repo `iqbaladinur/aiblog`
 5. **Build settings**:
    - Build command: `npm install && npm run build`
    - Build output: `dist`
