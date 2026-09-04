@@ -4,104 +4,105 @@ Topik dipilih otomatis oleh cron harian (skill `aiblog-daily-post`).
 Aturan: 1 hari 1 post; konten = edukasi/curiosity umum, BUKAN pengalaman pribadi user, TANPA info pribadi.
 WAJIB: gali lapisan kedua (obscure/deep-cut), jangan kisah mainstream; minimal 1 ilustrasi bebas lisensi di body post.
 Urutan DI-RANDOM (anti-spoiler) - jangan bocorin isi plan ini.
+Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech umum.
 
 - [x] 1. **Handheld wars: Game Boy vs Game Gear vs Lynx** — kenapa yang kalah spesifikasi (mono LCD, CPU lemah) malah menang telak? Baterai, library, ecosystem.
-- [ ] 2. **Kelahiran ESRB** — Mortal Kombat, hearing kongres, rating game lahir.
-- [ ] 3. **3dfx Voodoo** — akselerator 3D pertama & API Glide; gimana ngerubah gaming PC & kenapa mati.
-- [ ] 4. **WonderSwan: konsol Gunpei Yokoi pasca-Nintendo** — kenapa cuma eksis di Jepang; varian mono/color, orientasi layar bisa diputar, chip buatan Bandai, baterai 1×AA.
-- [ ] 5. **Street Fighter II** — gimana input buffer & cancel lahirkan genre fighting.
-- [ ] 6. **Media game console** — dari cartridge ke CD ke kartu lagi (Switch); kenapa tiap konsol milih beda.
-- [ ] 7. **Region lock & 10NES** — kenapa cartridge NES beda bentuk per negara; cara kerja lockout chip.
-- [ ] 8. **RG35XX & handheld emu China** — kenapa tiba-tiba murah & booming; chip di dalamnya.
-- [ ] 9. **RollerCoaster Tycoon** — satu orang nulis full game pake assembly.
-- [ ] 10. **RetroPie & Raspberry Pi** — gimana SBC ngubah scene emulasi rumahan.
-- [ ] 11. **Gadget gagal legendaris** — dari Juicero sampe E.T. Atari; anatomi kegagalan produk.
-- [ ] 12. **Turbo button PC 486** — kenapa ada tombol buat ngerendahin kecepatan CPU; masalah software lama.
-- [ ] 13. **Kenapa emulator butuh BIOS** — reverse engineering, clean-room, sisi legal emulasi.
-- [ ] 14. **Warez & scene culture** — sejarah release group, 0-day, & etika (tanpa tutorial).
-- [ ] 15. **SNES Mode 7** — gimana konsol 16-bit bisa "rotasi & scale" buat efek pseudo-3D.
-- [ ] 16. **Bisnis nada dering** — ringtone & NSP yang pernah jadi industri miliaran dolar.
-- [ ] 17. **Kurasi rabbit hole retro tech** — channel YouTube & situs terbaik buat ngulik (Techmoan, 8-bit Guy, RetroRGB, dll) + kenapa masing-masing worth follow.
-- [ ] 18. **Mario 1-1** — tutorial tanpa kata; desain level yang "ngajar" diam-diam.
-- [ ] 19. **Cel vs digital** — transisi animasi 90-an ke digicel & kenapa look-nya berubah.
-- [ ] 20. **Kenapa barang retro "naik harga"** — ekonomi kolektor game & konsol bekas; bubble atau permanen?
-- [ ] 21. **Runtuhnya Nokia** — dari penguasa ~40% pasar ke Microsoft; keputusan strategis yang salah.
-- [ ] 22. **PDA era** — Palm & Windows CE; smartphone sebelum smartphone.
-- [ ] 23. **Budaya ngoprek feature phone** — WAP, MIDP/J2ME, modding, full flash, themes & "ngeunlock".
-- [ ] 24. **Dedicated music player** — iPod & Walkman; kenapa gadget satu-fungsi bertahan lama.
-- [ ] 25. **DOOM engine** — 3D di PC tanpa GPU: BSP, raycasting, trick id Software.
-- [ ] 26. **Lost games & preservation** — game "hilang" yang ditemukan komunitas; dumping & emulation sebagai arsip.
-- [ ] 27. **Gaming di HP Symbian** — emulator & game native di device 200 MHz; S60v3 gaming culture.
-- [ ] 28. **Symbian S60 deep dive** — arsitektur OS mobile paling lama berkuasa; aplikasi native, signing, kenapa mati.
-- [ ] 29. **NES sprite flicker** — kenapa karakter "kedip-kedip"? Sprite limit hardware & trik programmer.
-- [ ] 30. **Slot tayang jam 2 pagi** — demografi otaku & kenapa anime "dewasa" tayang larut.
-- [ ] 31. **Netbook** — laptop murah yang sempat "bunuh" industri & kenapa hilang.
-- [ ] 32. **Betamax vs VHS** — kenapa format "lebih bagus" bisa kalah; pelajaran format war buat tech.
-- [ ] 33. **Easter egg game** — dari Adventure (Atari) sampe hidden room developer.
-- [ ] 34. **Cowboy Bebop & jazz** — peran soundtrack nentuin tone sebuah anime.
-- [ ] 35. **CRT vs LCD buat retro** — latency, scanline, 240p; kenapa CRT masih dipuja & diburu.
-- [ ] 36. **Nintendo DS dual screen** — kenapa desain aneh ini berhasil; game yang "mustahil" tanpa 2 layar; gimana emulator nanganin.
-- [ ] 37. **Shenmue** — ambisi open-world Sega yang ongkosnya nyaris bangkrutin.
-- [ ] 38. **Nintendo PlayStation** — prototipe SNES-CD hasil kerjasama Sony yang batal; cerita kontrak & foto prototipe yang muncul 2015.
-- [ ] 39. **Video game crash 1983** — kenapa industri hampir mati & peran Nintendo/Famicom nyelametin.
-- [ ] 40. **Overclocking era Pentium** — pendingin, silicon lottery, kenapa dulu OC itu "hobi ekstrem".
-- [ ] 41. **Dreamcast terlalu maju** — GD-ROM, modem, VMU, Windows CE; kenapa Sega mundur dari hardware.
-- [ ] 42. **HD-DVD vs Blu-ray** — format war terakhir & siapa yang mutusin.
-- [ ] 43. **Snake** — game bawaan Nokia yang jadi legenda; sejarah & versinya; kenapa desainnya adiktif.
-- [ ] 44. **Google Glass & wearable** — produk visioner yang gagal; pola "terlalu cepat".
-- [ ] 45. **Kondisi kerja animator** — underpaid & overworked; realita industri di balik karya indah; sejarah gaji animator.
-- [ ] 46. **OS yang mati terlalu cepat** — WebOS, Windows Phone, MeeGo; kenapa ekosistem kalah walau bagus.
-- [ ] 47. **N64 cartridge vs CD** — kenapa Square pindah ke PlayStation & ongkos cartridge N64.
-- [ ] 48. **QWERTY phone era** — BlackBerry & Nokia E-series; kenapa keyboard fisik punah.
-- [ ] 49. **Sakuga** — episode dengan animasi gila; animator legendaris & kenapa fans hafal nama mereka.
-- [ ] 50. **Galapagos phone** — kenapa HP Jepang (i-mode) berkembang terisolasi dari dunia.
-- [ ] 51. **Console region & 50/60Hz** — kenapa game PAL lebih lambat & beda kecepatan.
-- [ ] 52. **IDE vs SCSI** — perang storage enthusiast 90-an & kenapa IDE menang.
-- [ ] 53. **J2ME games** — ekosistem game mobile sebelum App Store; MIDP, operator bundling, "game 176x208", kenapa mati.
-- [ ] 54. **Production committee anime** — deretan nama perusahaan di credit itu apa; gimana pendanaan anime kerja.
-- [ ] 55. **Mechanical keyboard comeback** — sejarah switch & kenapa gamer bikin keyboard "hidup lagi".
-- [ ] 56. **MiniDisc** — kenapa Sony mati-matian bikin format ini; mekanisme magneto-optical; kultusnya sekarang.
-- [ ] 57. **Sound chip retro** — PSG, FM synthesis (YM2612), SID Commodore; kenapa tiap konsol punya "suara khas".
-- [ ] 58. **Ghibli & "no CGI"** — mitos vs realita; cara produksi & pengaruh Miyazaki.
-- [ ] 59. **Sound Blaster** — kenapa kartu suara wajib di era DOS; "AdLib compatible?", IRQ/DMA config.
-- [ ] 60. **Baterai era 2000-an** — NiMH vs Li-ion; mitos "cas 8 jam pertama" & memory effect.
-- [ ] 61. **Ufotable & kualitas visual** — gimana studio relatif kecil bisa overdeliver animasi.
-- [ ] 62. **PS1 texture warping** — kenapa tekstur game PS1 "bergoyang" & apa itu affine mapping.
-- [ ] 63. **Iomega Zip drive** — "click of death"; penyimpanan populer yang mati tragis.
-- [ ] 64. **Flashcart** — cara kerja cartridge "bajakan" legal-grey & kontroversinya.
-- [ ] 65. **Anime monetisasi** — dari Blu-ray, merchandise, sampe wisata (seichi junrei).
-- [ ] 66. **Seiyuu jadi idola** — sejarah voice actor Jepang naik kelas jadi bintang & industri konser.
-- [ ] 67. **Memory DOS** — himem, EMS, config.sys; perjuangan 640KB & gimana programmer akalin.
-- [ ] 68. **Kenapa game "gak jalan" di emulator** — timing, region, copy protection; emu akurat vs cepat.
-- [ ] 69. **Anison & idol anime** — dari theme song jadi industri musik sendiri.
-- [ ] 70. **CRT shader & scanline** — kenapa orang rela pake filter biar "kayak TV tabung".
-- [ ] 71. **Gundam & mecha** — kenapa robot raksasa jadi genre & pengaruhnya ke budaya pop.
-- [ ] 72. **OP/ED anime** — kenapa opening Jepang beda banget sama kartun Barat; sejarah & budget.
-- [ ] 73. **Metal Gear Solid** — Kojima bikin game se-sinematik film; Psycho Mantis & 4th wall.
-- [ ] 74. **Anime di TV Indonesia 90-an** — Doraemon, Sailor Moon, regulasi & kenangan tayang.
-- [ ] 75. **Right to repair** — sejarah perang konsumen vs vendor; gimana iFixit jadi garda depan.
-- [ ] 76. **Game multi-floppy** — install dari 10+ disket & copy protection manual ("kata ke-3 baris ke-5").
-- [ ] 77. **Evangelion ending kontroversial** — drama produksi di balik episode terakhir.
-- [ ] 78. **Kenapa PS2 terjual 155 juta** — DVD player sebagai kuda trojan.
-- [ ] 79. **Filler** — kenapa Naruto & kawan-kawan punya episode "nggak di manga".
-- [ ] 80. **Reflow GPU di oven** — cara kerja solder, kenapa trik "oven" sempat populer & kenapa cuma sementara.
-- [ ] 81. **OVA era VHS** — format eksperimen anime yang lahir & mati bareng rental video; karya yang cuma bisa ditonton lewat OVA.
-- [ ] 82. **Tetris effect** — psikologi di balik puzzle paling adiktif sedunia.
-- [ ] 83. **Ghibli Museum & merchandise** — gimana waralaba anime monetisasi di luar tayang; eksklusivitas.
-- [ ] 84. **E-waste & emas di PCB** — kenapa orang "nambang" komponen elektronik bekas; beneran menguntungkan?
-- [ ] 85. **Psion → Symbian → Nokia** — garis waktu OS mobile sebelum iOS/Android.
-- [ ] 86. **Zelda NES open world** — eksplorasi tanpa marker; manual & rumor sebagai petunjuk.
-- [ ] 87. **Silicon lottery** — kenapa dua chip identik bisa beda performa; binning & overclock.
-- [ ] 88. **Razor-blade model** — konsol dijual rugi, game jadi untung; gimana ekonomi hardware ini jalan.
-- [ ] 89. **Demoscene** — seni dari keterbatasan: intro 64KB, gimana caranya "curang" (procedural generation, compression).
-- [ ] 90. **Restorasi hardware retro** — capacitor aging, "recap", kenapa barang 30 tahun mati & bisa dihidupin lagi.
-- [ ] 91. **Jadwal produksi anime** — kenapa episode sering drop quality / delay; sistem mingguan.
-- [ ] 92. **Pac-Man ghost AI** — tiap hantu punya kepribadian & strategi nyata.
-- [ ] 93. **Lavender Town syndrome** — mitos vs fakta sound Pokemon Red/Blue yang bikin anak sakit.
-- [ ] 94. **PS Vita homebrew** — konsol gagal yang "hidup lagi" di tangan scene; arsitektur & jailbreak.
-- [ ] 95. **Pokemon dua versi** — trading sebagai desain sosial, bukan cuma gimmick.
-- [ ] 96. **Akira 1988** — kenapa film ini jadi gerbang anime masuk Barat; ongkos produksi & detail animasi.
-- [ ] 97. **Xbox original** — gimana Microsoft (pendatang) nembus pasar Sony/Nintendo.
-- [ ] 98. **Mode grafis DOS** — VGA, SVGA, 320x200; kenapa game lawas "kotak-kotak" & mode 13h.
-- [ ] 99. **Megapixel wars** — kenapa jumlah pixel bukan segalanya di kamera.
-- [ ] 100. **Password system vs battery save** — kenapa game NES jaman dulu pake password panjang.
+- [ ] 2. **Sound Blaster** — kenapa kartu suara wajib di era DOS; "AdLib compatible?", IRQ/DMA config.
+- [ ] 3. **Pachinko & waralaba anime** — mesin pachinko/pachislot sebagai "sumber duit rahasia" lisensi anime (Evangelion dkk); struktur revenue di luar tayang & kenapa gak pernah dibahas terang-terangan.
+- [ ] 4. **Gadget gagal legendaris** — dari Juicero sampe E.T. Atari; anatomi kegagalan produk.
+- [ ] 5. **QWERTY phone era** — BlackBerry & Nokia E-series; kenapa keyboard fisik punah.
+- [ ] 6. **Easter egg game** — dari Adventure (Atari) sampe hidden room developer.
+- [ ] 7. **Ufotable & kualitas visual** — gimana studio relatif kecil bisa overdeliver animasi.
+- [ ] 8. **RollerCoaster Tycoon** — satu orang nulis full game pake assembly.
+- [ ] 9. **Lavender Town syndrome** — mitos vs fakta sound Pokemon Red/Blue yang bikin anak sakit.
+- [ ] 10. **Razor-blade model** — konsol dijual rugi, game jadi untung; gimana ekonomi hardware ini jalan.
+- [ ] 11. **N64 cartridge vs CD** — kenapa Square pindah ke PlayStation & ongkos cartridge N64.
+- [ ] 12. **Kenapa PS2 terjual 155 juta** — DVD player sebagai kuda trojan.
+- [ ] 13. **Akira 1988** — kenapa film ini jadi gerbang anime masuk Barat; ongkos produksi & detail animasi.
+- [ ] 14. **Production committee anime** — deretan nama perusahaan di credit itu apa; gimana pendanaan anime kerja.
+- [ ] 15. **E-waste & emas di PCB** — kenapa orang "nambang" komponen elektronik bekas; beneran menguntungkan?
+- [ ] 16. **Password system vs battery save** — kenapa game NES jaman dulu pake password panjang.
+- [ ] 17. **NES sprite flicker** — kenapa karakter "kedip-kedip"? Sprite limit hardware & trik programmer.
+- [ ] 18. **HD-DVD vs Blu-ray** — format war terakhir & siapa yang mutusin.
+- [ ] 19. **Anison & idol anime** — dari theme song jadi industri musik sendiri.
+- [ ] 20. **CRT shader & scanline** — kenapa orang rela pake filter biar "kayak TV tabung".
+- [ ] 21. **Nintendo PlayStation** — prototipe SNES-CD hasil kerjasama Sony yang batal; cerita kontrak & foto prototipe yang muncul 2015.
+- [ ] 22. **Anime & tokusatsu (Toei)** — dua dunia produksi Jepang dari rumah yang sama: Kamen Rider/Sentai & anime; silang sutradara, aktor, & teknologi syuting vs gambar.
+- [ ] 23. **Kenapa barang retro "naik harga"** — ekonomi kolektor game & konsol bekas; bubble atau permanen?
+- [ ] 24. **OP/ED anime** — kenapa opening Jepang beda banget sama kartun Barat; sejarah & budget.
+- [ ] 25. **Sound chip retro** — PSG, FM synthesis (YM2612), SID Commodore; kenapa tiap konsol punya "suara khas".
+- [ ] 26. **Anime masuk Eropa & Timur Tengah** — Club Dorothée di Prancis, Captain Tsubasa ngehits di dunia Arab; kenapa kawasan ini cinta anime lebih dulu dari AS & kenapa versi lokalnya beda jauh.
+- [ ] 27. **RG35XX & handheld emu China** — kenapa tiba-tiba murah & booming; chip di dalamnya.
+- [ ] 28. **Shenmue** — ambisi open-world Sega yang ongkosnya nyaris bangkrutin.
+- [ ] 29. **Media game console** — dari cartridge ke CD ke kartu lagi (Switch); kenapa tiap konsol milih beda.
+- [ ] 30. **Runtuhnya Nokia** — dari penguasa ~40% pasar ke Microsoft; keputusan strategis yang salah.
+- [ ] 31. **Restorasi hardware retro** — capacitor aging, "recap", kenapa barang 30 tahun mati & bisa dihidupin lagi.
+- [ ] 32. **Slot tayang jam 2 pagi** — demografi otaku & kenapa anime "dewasa" tayang larut.
+- [ ] 33. **Region lock & 10NES** — kenapa cartridge NES beda bentuk per negara; cara kerja lockout chip.
+- [ ] 34. **DOOM engine** — 3D di PC tanpa GPU: BSP, raycasting, trick id Software.
+- [ ] 35. **Sakuga** — episode dengan animasi gila; animator legendaris & kenapa fans hafal nama mereka.
+- [ ] 36. **Animax** — saluran TV anime 24 jam bentukan Sony yang sempat hadir di Indonesia; kenapa lahir, apa bedanya dari TV biasa, kenapa redup.
+- [ ] 37. **Nintendo DS dual screen** — kenapa desain aneh ini berhasil; game yang "mustahil" tanpa 2 layar; gimana emulator nanganin.
+- [ ] 38. **Gundam & mecha** — kenapa robot raksasa jadi genre & pengaruhnya ke budaya pop.
+- [ ] 39. **Iomega Zip drive** — "click of death"; penyimpanan populer yang mati tragis.
+- [ ] 40. **SNES Mode 7** — gimana konsol 16-bit bisa "rotasi & scale" buat efek pseudo-3D.
+- [ ] 41. **MiniDisc** — kenapa Sony mati-matian bikin format ini; mekanisme magneto-optical; kultusnya sekarang.
+- [ ] 42. **Flashcart** — cara kerja cartridge "bajakan" legal-grey & kontroversinya.
+- [ ] 43. **Xbox original** — gimana Microsoft (pendatang) nembus pasar Sony/Nintendo.
+- [ ] 44. **Zelda NES open world** — eksplorasi tanpa marker; manual & rumor sebagai petunjuk.
+- [ ] 45. **Ghibli Museum & merchandise** — gimana waralaba anime monetisasi di luar tayang; eksklusivitas.
+- [ ] 46. **Kenapa anime 12 episode?** — format cour & split-cour: sejarah kenapa semusim = 10-13 eps, beda nasibnya sama kartun Barat yang tayang tanpa musim.
+- [ ] 47. **Kondisi kerja animator** — underpaid & overworked; realita industri di balik karya indah; sejarah gaji animator.
+- [ ] 48. **Overclocking era Pentium** — pendingin, silicon lottery, kenapa dulu OC itu "hobi ekstrem".
+- [ ] 49. **Bisnis nada dering** — ringtone & NSP yang pernah jadi industri miliaran dolar.
+- [ ] 50. **Kenapa game "gak jalan" di emulator** — timing, region, copy protection; emu akurat vs cepat.
+- [ ] 51. **Anime sebagai iklan manga** — logika ekonomi "anime sengaja rugi biar manga/LN laku"; gimana penerbit ngitung untung dari sumber, bukan dari tayangannya.
+- [ ] 52. **Cel vs digital** — transisi animasi 90-an ke digicel & kenapa look-nya berubah.
+- [ ] 53. **Seiyuu jadi idola** — sejarah voice actor Jepang naik kelas jadi bintang & industri konser.
+- [ ] 54. **Demoscene** — seni dari keterbatasan: intro 64KB, gimana caranya "curang" (procedural generation, compression).
+- [ ] 55. **Mode grafis DOS** — VGA, SVGA, 320x200; kenapa game lawas "kotak-kotak" & mode 13h.
+- [ ] 56. **Filler** — kenapa Naruto & kawan-kawan punya episode "nggak di manga".
+- [ ] 57. **PS1 texture warping** — kenapa tekstur game PS1 "bergoyang" & apa itu affine mapping.
+- [ ] 58. **Mechanical keyboard comeback** — sejarah switch & kenapa gamer bikin keyboard "hidup lagi".
+- [ ] 59. **Netbook** — laptop murah yang sempat "bunuh" industri & kenapa hilang.
+- [ ] 60. **Cowboy Bebop & jazz** — peran soundtrack nentuin tone sebuah anime.
+- [ ] 61. **Symbian S60 deep dive** — arsitektur OS mobile paling lama berkuasa; aplikasi native, signing, kenapa mati.
+- [ ] 62. **Budaya ngoprek feature phone** — WAP, MIDP/J2ME, modding, full flash, themes & "ngeunlock".
+- [ ] 63. **World Masterpiece Theater** — serial adaptasi novel klasik (Heidi, Anne of Green Gables) yang rutin tayang 20+ tahun di Fuji TV jam 19:30; kenapa Jepang bikin "anime pendidikan" & kenapa era itu berakhir.
+- [ ] 64. **Pac-Man ghost AI** — tiap hantu punya kepribadian & strategi nyata.
+- [ ] 65. **J2ME games** — ekosistem game mobile sebelum App Store; MIDP, operator bundling, "game 176x208", kenapa mati.
+- [ ] 66. **Snake** — game bawaan Nokia yang jadi legenda; sejarah & versinya; kenapa desainnya adiktif.
+- [ ] 67. **Pokemon dua versi** — trading sebagai desain sosial, bukan cuma gimmick.
+- [ ] 68. **Anime monetisasi** — dari Blu-ray, merchandise, sampe wisata (seichi junrei).
+- [ ] 69. **Video game crash 1983** — kenapa industri hampir mati & peran Nintendo/Famicom nyelametin.
+- [ ] 70. **Google Glass & wearable** — produk visioner yang gagal; pola "terlalu cepat".
+- [ ] 71. **Kenapa emulator butuh BIOS** — reverse engineering, clean-room, sisi legal emulasi.
+- [ ] 72. **PS Vita homebrew** — konsol gagal yang "hidup lagi" di tangan scene; arsitektur & jailbreak.
+- [ ] 73. **Lost games & preservation** — game "hilang" yang ditemukan komunitas; dumping & emulation sebagai arsip.
+- [ ] 74. **Evangelion ending kontroversial** — drama produksi di balik episode terakhir.
+- [ ] 75. **Comiket & doujinshi** — pasar kreatif indie terbesar di dunia: sejarah dari skala kecil, gimana event-nya jalan, & hubungan rumitnya sama industri resmi.
+- [ ] 76. **CM anime** — anime buat iklan perusahaan: sejarah & studio yang sempat hidup dari iklan sebelum era TV series.
+- [ ] 77. **PDA era** — Palm & Windows CE; smartphone sebelum smartphone.
+- [ ] 78. **Memory DOS** — himem, EMS, config.sys; perjuangan 640KB & gimana programmer akalin.
+- [ ] 79. **Anime di TV Indonesia 90-an** — Doraemon, Sailor Moon, regulasi & kenangan tayang.
+- [ ] 80. **Right to repair** — sejarah perang konsumen vs vendor; gimana iFixit jadi garda depan.
+- [ ] 81. **Galapagos phone** — kenapa HP Jepang (i-mode) berkembang terisolasi dari dunia.
+- [ ] 82. **Warez & scene culture** — sejarah release group, 0-day, & etika (tanpa tutorial).
+- [ ] 83. **Fansub ke simulcast** — dari kaset VHS fansub & digisub ke streaming legal; gimana fanbase global justru dibentuk "pembajakan" & akhirnya dirangkul industri.
+- [ ] 84. **Reflow GPU di oven** — cara kerja solder, kenapa trik "oven" sempat populer & kenapa cuma sementara.
+- [ ] 85. **Turbo button PC 486** — kenapa ada tombol buat ngerendahin kecepatan CPU; masalah software lama.
+- [ ] 86. **CRT vs LCD buat retro** — latency, scanline, 240p; kenapa CRT masih dipuja & diburu.
+- [ ] 87. **Jadwal produksi anime** — kenapa episode sering drop quality / delay; sistem mingguan.
+- [ ] 88. **OVA era VHS** — format eksperimen anime yang lahir & mati bareng rental video; karya yang cuma bisa ditonton lewat OVA.
+- [ ] 89. **Ghibli & "no CGI"** — mitos vs realita; cara produksi & pengaruh Miyazaki.
+- [ ] 90. **Game multi-floppy** — install dari 10+ disket & copy protection manual ("kata ke-3 baris ke-5").
+- [ ] 91. **RetroPie & Raspberry Pi** — gimana SBC ngubah scene emulasi rumahan.
+- [ ] 92. **Betamax vs VHS** — kenapa format "lebih bagus" bisa kalah; pelajaran format war buat tech.
+- [ ] 93. **Tetris effect** — psikologi di balik puzzle paling adiktif sedunia.
+- [ ] 94. **Console region & 50/60Hz** — kenapa game PAL lebih lambat & beda kecepatan.
+- [ ] 95. **Psion → Symbian → Nokia** — garis waktu OS mobile sebelum iOS/Android.
+- [ ] 96. **Gaming di HP Symbian** — emulator & game native di device 200 MHz; S60v3 gaming culture.
+- [ ] 97. **IDE vs SCSI** — perang storage enthusiast 90-an & kenapa IDE menang.
+- [ ] 98. **Dreamcast terlalu maju** — GD-ROM, modem, VMU, Windows CE; kenapa Sega mundur dari hardware.
+- [ ] 99. **Metal Gear Solid** — Kojima bikin game se-sinematik film; Psycho Mantis & 4th wall.
+- [ ] 100. **Mario 1-1** — tutorial tanpa kata; desain level yang "ngajar" diam-diam.
