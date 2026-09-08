@@ -10,7 +10,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 2. **RetroPie & Raspberry Pi** — gimana SBC ngubah scene emulasi rumahan.
 - [x] 3. **Video game crash 1983** — kenapa industri hampir mati & peran Nintendo/Famicom nyelametin.
 - [x] 4. **Gadget gagal legendaris** — dari Juicero sampe E.T. Atari; anatomi kegagalan produk.
-- [ ] 5. **Gundam & mecha** — kenapa robot raksasa jadi genre & pengaruhnya ke budaya pop.
+- [x] 5. **Gundam & mecha** — kenapa robot raksasa jadi genre & pengaruhnya ke budaya pop.
 - [ ] 6. **Flashcart** — cara kerja cartridge "bajakan" legal-grey & kontroversinya.
 - [ ] 7. **Lost games & preservation** — game "hilang" yang ditemukan komunitas; dumping & emulation sebagai arsip.
 - [ ] 8. **Memory DOS** — himem, EMS, config.sys; perjuangan 640KB & gimana programmer akalin.
