@@ -13,7 +13,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 5. **Gundam & mecha** — kenapa robot raksasa jadi genre & pengaruhnya ke budaya pop.
 - [x] 6. **Flashcart** — cara kerja cartridge "bajakan" legal-grey & kontroversinya.
 - [x] 7. **Lost games & preservation** — game "hilang" yang ditemukan komunitas; dumping & emulation sebagai arsip.
-- [ ] 8. **Memory DOS** — himem, EMS, config.sys; perjuangan 640KB & gimana programmer akalin.
+- [x] 8. **Memory DOS** — himem, EMS, config.sys; perjuangan 640KB & gimana programmer akalin.
 - [ ] 9. **Nintendo PlayStation** — prototipe SNES-CD hasil kerjasama Sony yang batal; cerita kontrak & foto prototipe yang muncul 2015.
 - [ ] 10. **Cowboy Bebop & jazz** — peran soundtrack nentuin tone sebuah anime.
 - [ ] 11. **SFX anime** — kenapa efek suara khas Jepang (pukulan, jebret, langkah) beda dari Barat; foley & perpustakaan suara yang dipake studio.
