@@ -15,7 +15,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 7. **Lost games & preservation** — game "hilang" yang ditemukan komunitas; dumping & emulation sebagai arsip.
 - [x] 8. **Memory DOS** — himem, EMS, config.sys; perjuangan 640KB & gimana programmer akalin.
 - [x] 9. **Nintendo PlayStation** — prototipe SNES-CD hasil kerjasama Sony yang batal; cerita kontrak & foto prototipe yang muncul 2015.
-- [ ] 10. **Cowboy Bebop & jazz** — peran soundtrack nentuin tone sebuah anime.
+- [x] 10. **Cowboy Bebop & jazz** — peran soundtrack nentuin tone sebuah anime.
 - [ ] 11. **SFX anime** — kenapa efek suara khas Jepang (pukulan, jebret, langkah) beda dari Barat; foley & perpustakaan suara yang dipake studio.
 - [ ] 12. **Netbook** — laptop murah yang sempat "bunuh" industri & kenapa hilang.
 - [ ] 13. **Sakuga** — episode dengan animasi gila; animator legendaris & kenapa fans hafal nama mereka.
