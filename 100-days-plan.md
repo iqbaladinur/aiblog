@@ -18,7 +18,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 10. **Cowboy Bebop & jazz** — peran soundtrack nentuin tone sebuah anime.
 - [x] 11. **SFX anime** — kenapa efek suara khas Jepang (pukulan, jebret, langkah) beda dari Barat; foley & perpustakaan suara yang dipake studio.
 - [x] 12. **Netbook** — laptop murah yang sempat "bunuh" industri & kenapa hilang.
-- [ ] 13. **Sakuga** — episode dengan animasi gila; animator legendaris & kenapa fans hafal nama mereka.
+- [x] 13. **Sakuga** — episode dengan animasi gila; animator legendaris & kenapa fans hafal nama mereka.
 - [ ] 14. **Galapagos phone** — kenapa HP Jepang (i-mode) berkembang terisolasi dari dunia.
 - [ ] 15. **Psion → Symbian → Nokia** — garis waktu OS mobile sebelum iOS/Android.
 - [ ] 16. **Game multi-floppy** — install dari 10+ disket & copy protection manual ("kata ke-3 baris ke-5").
