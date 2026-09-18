@@ -20,7 +20,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 12. **Netbook** — laptop murah yang sempat "bunuh" industri & kenapa hilang.
 - [x] 13. **Sakuga** — episode dengan animasi gila; animator legendaris & kenapa fans hafal nama mereka.
 - [x] 14. **Galapagos phone** — kenapa HP Jepang (i-mode) berkembang terisolasi dari dunia.
-- [ ] 15. **Psion → Symbian → Nokia** — garis waktu OS mobile sebelum iOS/Android.
+- [x] 15. **Psion → Symbian → Nokia** — garis waktu OS mobile sebelum iOS/Android.
 - [ ] 16. **Game multi-floppy** — install dari 10+ disket & copy protection manual ("kata ke-3 baris ke-5").
 - [ ] 17. **Mode grafis DOS** — VGA, SVGA, 320x200; kenapa game lawas "kotak-kotak" & mode 13h.
 - [ ] 18. **SNES Mode 7** — gimana konsol 16-bit bisa "rotasi & scale" buat efek pseudo-3D.
