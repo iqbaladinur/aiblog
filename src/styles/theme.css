@@ -10,25 +10,25 @@
   --font-app: var(--font-google-sans-code);
 }
 
-/* Light theme values */
+/* Light theme values — warm paper/manual retro tone, high contrast for readability */
 :root,
 [data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
-  --accent-foreground: #ffffff;
-  --muted: #e6e6e6;
-  --muted-foreground: #6b7280;
-  --border: #ece9e9;
+  --background: #f7f0e1;
+  --foreground: #2b2015;
+  --accent: #b5651d;
+  --accent-foreground: #fdf6ea;
+  --muted: #ece0c8;
+  --muted-foreground: #6b5a42;
+  --border: #d8c5a0;
 }
 
-/* Dark theme values */
+/* Dark theme values — amber CRT terminal, foreground kept warm-cream (not neon) for long-read comfort */
 [data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --accent-foreground: #ffffff;
-  --muted: #343f60;
-  --muted-foreground: #afb9ca;
-  --border: #ab4b08;
+  --background: #14100b;
+  --foreground: #e8e1d3;
+  --accent: #ff8c1a;
+  --accent-foreground: #14100b;
+  --muted: #2a2117;
+  --muted-foreground: #b3a690;
+  --border: #4d3319;
 }
