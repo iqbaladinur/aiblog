@@ -10,16 +10,16 @@
   --font-app: var(--font-google-sans-code);
 }
 
-/* Light theme values — warm paper/manual retro tone, high contrast for readability */
+/* Light theme values — e-paper/e-ink look: near-grayscale, matte, high contrast, no saturated color */
 :root,
 [data-theme="light"] {
-  --background: #f7f0e1;
-  --foreground: #2b2015;
-  --accent: #b5651d;
-  --accent-foreground: #fdf6ea;
-  --muted: #ece0c8;
-  --muted-foreground: #6b5a42;
-  --border: #d8c5a0;
+  --background: #e9e7e1;
+  --foreground: #1c1c1a;
+  --accent: #2f2f2c;
+  --accent-foreground: #e9e7e1;
+  --muted: #dbd8cf;
+  --muted-foreground: #5c5a52;
+  --border: #c7c4b9;
 }
 
 /* Dark theme values — amber CRT terminal, foreground kept warm-cream (not neon) for long-read comfort */
