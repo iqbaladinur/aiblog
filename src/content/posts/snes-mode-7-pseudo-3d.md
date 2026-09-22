@@ -17,6 +17,9 @@ Mode 7 pada dasarnya cuma bikin **satu background layer** bisa diputar dan di-sc
 
 Jadi ilusi "jalan yang mengecil ke kejauhan" di F-Zero itu sebenarnya cuma satu gambar datar yang di-scale beda-beda tiap baris pixel horizontal — makin ke atas layar, makin kecil skalanya, biar kelihatan makin jauh. Bukan geometri 3D, tapi manipulasi skala per-baris yang dieksekusi ribuan kali per detik.
 
+![Demo teknis efek Mode 7 SNES — satu layer background dirotasi & di-scale per-scanline sampai kelihatan seperti lantai 3D](/images/snes-mode7-demo.png)
+*Demo Mode 7 SNES: satu bidang datar ditekuk secara matematis jadi ilusi "lantai" yang melebar ke horizon. Foto: Wikimedia Commons, domain publik.*
+
 ![Konsol Super Nintendo Entertainment System, rumah dari chip PPU yang menjalankan Mode 7](/images/snes-mode7-console.jpg)
 *Super Nintendo Entertainment System (SNS-001) — foto: Evan-Amos, Wikimedia Commons, domain publik.*
 

@@ -34,6 +34,9 @@ Tekstur, misalnya, sama sekali nggak disimpan per-pixel kayak file JPEG atau PNG
 
 Jadi bukan gambar yang dikompres, tapi *instruksi cara menggambar ulang* gambar itu dari nol, setiap kali game dibuka. Hal yang sama berlaku buat model 3D, musik, bahkan sebagian layout level — semuanya digenerate secara prosedural saat runtime, bukan dibaca dari file statis.
 
+![Screenshot gameplay .kkrieger, FPS 3D penuh yang cuma 96 KB di disk](/images/demoscene-seni-dari-keterbatasan-2.jpg)
+*.kkrieger (2004) oleh .theprodukkt/Farbrausch — semua tekstur & model di-generate prosedural saat runtime, bukan disimpan sebagai aset. Foto: Wikimedia Commons, BSD license.*
+
 Konsekuensinya cukup ekstrem: begitu dijalankan, executable 96 KB ini bisa **membengkak sampai sekitar 300 MB** di memori RAM komputer, karena semua konten yang tadinya cuma berupa "resep" itu di-render jadi data penuh saat itu juga. File di disk kecil mungil, tapi begitu hidup, dia rakus RAM.
 
 ![Commodore 64, komputer rumahan yang jadi tempat lahirnya cracktro pertama tahun 1984](/images/demoscene-seni-dari-keterbatasan-1.jpg)
