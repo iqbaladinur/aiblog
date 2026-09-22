@@ -24,7 +24,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 16. **Game multi-floppy** — install dari 10+ disket & copy protection manual ("kata ke-3 baris ke-5").
 - [x] 17. **Mode grafis DOS** — VGA, SVGA, 320x200; kenapa game lawas "kotak-kotak" & mode 13h.
 - [x] 18. **SNES Mode 7** — gimana konsol 16-bit bisa "rotasi & scale" buat efek pseudo-3D.
-- [ ] 19. **Demoscene** — seni dari keterbatasan: intro 64KB, gimana caranya "curang" (procedural generation, compression).
+- [x] 19. **Demoscene** — seni dari keterbatasan: intro 64KB, gimana caranya "curang" (procedural generation, compression).
 - [ ] 20. **Astro Boy tembus Amerika (1963)** — anime TV pertama yang tayang di AS; strategi Tezuka jual di bawah harga produksi & gimana itu ngebentuk pola ekspor anime.
 - [ ] 21. **Jadwal produksi anime** — kenapa episode sering drop quality / delay; sistem mingguan.
 - [ ] 22. **PS Vita homebrew** — konsol gagal yang "hidup lagi" di tangan scene; arsitektur & jailbreak.
