@@ -27,7 +27,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 19. **Demoscene** — seni dari keterbatasan: intro 64KB, gimana caranya "curang" (procedural generation, compression).
 - [x] 20. **Astro Boy tembus Amerika (1963)** — anime TV pertama yang tayang di AS; strategi Tezuka jual di bawah harga produksi & gimana itu ngebentuk pola ekspor anime.
 - [x] 21. **Jadwal produksi anime** — kenapa episode sering drop quality / delay; sistem mingguan.
-- [ ] 22. **PS Vita homebrew** — konsol gagal yang "hidup lagi" di tangan scene; arsitektur & jailbreak.
+- [x] 22. **PS Vita homebrew** — konsol gagal yang "hidup lagi" di tangan scene; arsitektur & jailbreak.
 - [ ] 23. **Lost anime** — serial/episode anime yang hilang & ditemukan lagi lewat rekaman VHS, seluloid, atau arsip fans; beda nasib sama game yang ke-preserve.
 - [ ] 24. **Zelda NES open world** — eksplorasi tanpa marker; manual & rumor sebagai petunjuk.
 - [ ] 25. **Anime di TV Indonesia 90-an** — Doraemon, Sailor Moon, regulasi & kenangan tayang.
