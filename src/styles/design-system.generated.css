@@ -44,20 +44,20 @@
   --accent-fg: #111827;
 }
 :root {
-  --ds---bg: var(----bg);
-  --ds---surface: var(----surface);
-  --ds---fg: var(----fg);
-  --ds---muted: var(----muted);
-  --ds---muted-fg: var(----muted-fg);
-  --ds---hairline: var(----hairline);
-  --ds---ink: var(----ink);
-  --ds---shadow: var(----shadow);
-  --ds---accent-a: var(----accent-a);
-  --ds---accent-b: var(----accent-b);
-  --ds---success: var(----success);
-  --ds---danger: var(----danger);
-  --ds---accent: var(----accent);
-  --ds---accent-fg: var(----accent-fg);
+  --ds-bg: var(--bg);
+  --ds-surface: var(--surface);
+  --ds-fg: var(--fg);
+  --ds-muted: var(--muted);
+  --ds-muted-fg: var(--muted-fg);
+  --ds-hairline: var(--hairline);
+  --ds-ink: var(--ink);
+  --ds-shadow: var(--shadow);
+  --ds-accent-a: var(--accent-a);
+  --ds-accent-b: var(--accent-b);
+  --ds-success: var(--success);
+  --ds-danger: var(--danger);
+  --ds-accent: var(--accent);
+  --ds-accent-fg: var(--accent-fg);
   --ds-bw: var(--bw);
   --ds-sh: var(--sh);
   --ds-radius: var(--radius);
