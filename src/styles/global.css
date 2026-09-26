@@ -1,11 +1,31 @@
 @import "tailwindcss";
+@import "./design-system.generated.css";
 @import "./theme.css";
 @import "./typography.css";
 @import "rehype-callouts/theme/obsidian";
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
+/* design-system: frame untuk gambar & code block di artikel */
+.app-prose img,
+.app-prose .astro-code {
+  border: var(--ds-bw) solid var(--ds-ink);
+  border-radius: calc(var(--ds-radius) - 4px);
+  box-shadow: calc(var(--ds-sh) / 2) calc(var(--ds-sh) / 2) 0 var(--ds-shadow);
+}
+
 @layer base {
+  /* design system: font-weight floor 500, heading pakai display face */
+  body {
+    font-weight: 500;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.015em;
+  }
   * {
     @apply border-border outline-accent/75;
     scrollbar-width: auto;

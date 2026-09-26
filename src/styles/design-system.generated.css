@@ -1,0 +1,169 @@
+/* GENERATED — product: aiblog | palette mono-blue | intensity medium */
+:root {
+  --font-display: 'Archivo Black', 'Inter', system-ui, sans-serif;
+  --font-display-serif: 'Noto Serif', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --bw: 3px; --sh: 6px; --radius: 12px;
+  --motion-fast: 120ms; --motion-ease: cubic-bezier(.2,.8,.2,1);
+}
+:root, [data-theme='light'] {
+  --bg: #EDEEE6;
+  --surface: #F7F7F2;
+  --fg: #111827;
+  --muted: #DFE0D6;
+  --muted-fg: #4B5160;
+  --hairline: #C9CBBE;
+  --ink: #111827;
+  --shadow: #111827;
+  --accent-a: #2255A4;
+  --accent-a-fg: #F7F7F2;
+  --accent-b: #D69A2D;
+  --accent-b-fg: #111827;
+  --success: #2F6B45;
+  --danger: #B3261E;
+  --accent: #9A5B0F;
+  --accent-fg: #F7F7F2;
+}
+[data-theme='dark'] {
+  --bg: #111827;
+  --surface: #1A2233;
+  --fg: #EDEEE6;
+  --muted: #243047;
+  --muted-fg: #A9B0BE;
+  --hairline: #2E3A52;
+  --ink: #8B95A8;
+  --shadow: #05070C;
+  --accent-a: #7EA6EA;
+  --accent-a-fg: #111827;
+  --accent-b: #E8B04A;
+  --accent-b-fg: #111827;
+  --success: #6FC08D;
+  --danger: #F2837B;
+  --accent: #FF9F3A;
+  --accent-fg: #111827;
+}
+:root {
+  --ds-bg: var(--bg);
+  --ds-surface: var(--surface);
+  --ds-fg: var(--fg);
+  --ds-muted: var(--muted);
+  --ds-muted-fg: var(--muted-fg);
+  --ds-hairline: var(--hairline);
+  --ds-ink: var(--ink);
+  --ds-shadow: var(--shadow);
+  --ds-accent-a: var(--accent-a);
+  --ds-accent-b: var(--accent-b);
+  --ds-success: var(--success);
+  --ds-danger: var(--danger);
+  --ds-accent: var(--accent);
+  --ds-accent-fg: var(--accent-fg);
+  --ds-bw: var(--bw);
+  --ds-sh: var(--sh);
+  --ds-radius: var(--radius);
+}
+
+/* iqbaldev design-system — generic components (framework-agnostic)
+ * Kanonik: ~/design-system/components/components.css
+ * Di-inline otomatis ke dist/products/<produk>.css + dist/components.css oleh build.py.
+ * Konsumen WAJIB punya semantic vars: --ds-surface --ds-fg --ds-ink --ds-shadow
+ * --ds-accent --ds-accent-fg (disediakan oleh blok alias di file produk).
+ * Intensity vars (--ds-bw --ds-sh --ds-radius) default = medium, override per produk.
+ * DNA: flat, hard offset shadow (0 blur), ink border. No gradient/blur/glass.
+ */
+@layer components {
+  :where(:root) {
+    --ds-bw: 3px;
+    --ds-sh: 6px;
+    --ds-radius: 12px;
+    --motion-fast: 120ms;
+    --motion-ease: cubic-bezier(.2, .8, .2, 1);
+  }
+
+  /* ---- Card ---- */
+  .ds-card {
+    position: relative;
+    background: var(--ds-surface);
+    color: var(--ds-fg);
+    border: var(--ds-bw) solid var(--ds-ink);
+    border-radius: var(--ds-radius);
+    box-shadow: var(--ds-sh) var(--ds-sh) 0 var(--ds-shadow);
+    transition: transform var(--motion-fast) var(--motion-ease),
+      box-shadow var(--motion-fast) var(--motion-ease);
+  }
+  .ds-card--interactive:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: calc(var(--ds-sh) + 2px) calc(var(--ds-sh) + 2px) 0 var(--ds-shadow);
+  }
+  .ds-card--interactive:active {
+    transform: translate(calc(var(--ds-sh) / 2), calc(var(--ds-sh) / 2));
+    box-shadow: calc(var(--ds-sh) / 2) calc(var(--ds-sh) / 2) 0 var(--ds-shadow);
+  }
+
+  /* ---- Button (warna tidak diubah saat hover: aman dipadu utility hover:text-*) ---- */
+  .ds-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: .35em;
+    background: var(--ds-surface);
+    color: var(--ds-fg);
+    border: var(--ds-bw) solid var(--ds-ink);
+    border-radius: calc(var(--ds-radius) - 4px);
+    box-shadow: calc(var(--ds-sh) / 2) calc(var(--ds-sh) / 2) 0 var(--ds-shadow);
+    padding: .4em 1em;
+    font-weight: 600;
+    line-height: 1.4;
+    transition: transform var(--motion-fast) var(--motion-ease),
+      box-shadow var(--motion-fast) var(--motion-ease);
+  }
+  .ds-btn:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: calc(var(--ds-sh) / 2 + 1px) calc(var(--ds-sh) / 2 + 1px) 0 var(--ds-shadow);
+  }
+  .ds-btn:active {
+    transform: translate(calc(var(--ds-sh) / 2), calc(var(--ds-sh) / 2));
+    box-shadow: 0 0 0 var(--ds-shadow);
+  }
+  .ds-btn[aria-disabled="true"] {
+    opacity: .45;
+    box-shadow: none;
+    transform: none;
+    pointer-events: none;
+  }
+
+  /* ---- Badge / tag ---- */
+  .ds-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: .15em;
+    background: var(--ds-surface);
+    color: var(--ds-fg);
+    border: 2px solid var(--ds-ink);
+    border-radius: 999px;
+    padding: .1em .75em .1em .5em;
+    font-weight: 600;
+    transition: transform var(--motion-fast) var(--motion-ease),
+      box-shadow var(--motion-fast) var(--motion-ease);
+  }
+  .ds-badge:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 2px 2px 0 var(--ds-shadow);
+  }
+
+  /* ---- Frame: gambar, code block, embed ---- */
+  .ds-frame {
+    border: var(--ds-bw) solid var(--ds-ink);
+    border-radius: calc(var(--ds-radius) - 4px);
+    box-shadow: calc(var(--ds-sh) / 2) calc(var(--ds-sh) / 2) 0 var(--ds-shadow);
+  }
+
+  /* ---- Callout / quote ---- */
+  .ds-callout {
+    background: var(--ds-surface);
+    border: var(--ds-bw) solid var(--ds-ink);
+    border-left-width: calc(var(--ds-bw) * 3);
+    border-left-color: var(--ds-accent);
+    border-radius: calc(var(--ds-radius) - 4px);
+    padding: .75em 1em;
+  }
+}
