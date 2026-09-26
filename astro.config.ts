@@ -60,13 +60,22 @@ export default defineConfig({
   },
   fonts: [
     {
-      name: "Google Sans Code",
-      cssVariable: "--font-google-sans-code",
+      name: "Inter",
+      cssVariable: "--font-inter",
       provider: fontProviders.google(),
-      fallbacks: ["monospace"],
-      weights: [300, 400, 500, 600, 700],
-      styles: ["normal", "italic"],
-      formats: ["woff", "ttf"],
+      fallbacks: ["system-ui", "sans-serif"],
+      weights: [500, 600, 700, 800],
+      styles: ["normal"],
+      subsets: ["latin"],
+    },
+    {
+      name: "Archivo Black",
+      cssVariable: "--font-archivo-black",
+      provider: fontProviders.google(),
+      fallbacks: ["sans-serif"],
+      weights: [400],
+      styles: ["normal"],
+      subsets: ["latin"],
     },
   ],
   env: {
