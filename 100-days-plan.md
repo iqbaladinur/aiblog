@@ -29,7 +29,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 21. **Jadwal produksi anime** — kenapa episode sering drop quality / delay; sistem mingguan.
 - [x] 22. **PS Vita homebrew** — konsol gagal yang "hidup lagi" di tangan scene; arsitektur & jailbreak.
 - [x] 23. **Lost anime** — serial/episode anime yang hilang & ditemukan lagi lewat rekaman VHS, seluloid, atau arsip fans; beda nasib sama game yang ke-preserve.
-- [ ] 24. **Zelda NES open world** — eksplorasi tanpa marker; manual & rumor sebagai petunjuk.
+- [x] 24. **Zelda NES open world** — eksplorasi tanpa marker; manual & rumor sebagai petunjuk.
 - [ ] 25. **Anime di TV Indonesia 90-an** — Doraemon, Sailor Moon, regulasi & kenangan tayang.
 - [ ] 26. **Anime monetisasi** — dari Blu-ray, merchandise, sampe wisata (seichi junrei).
 - [ ] 27. **Kenapa emulator butuh BIOS** — reverse engineering, clean-room, sisi legal emulasi.
