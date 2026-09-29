@@ -31,7 +31,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 23. **Lost anime** — serial/episode anime yang hilang & ditemukan lagi lewat rekaman VHS, seluloid, atau arsip fans; beda nasib sama game yang ke-preserve.
 - [x] 24. **Zelda NES open world** — eksplorasi tanpa marker; manual & rumor sebagai petunjuk.
 - [x] 25. **Anime di TV Indonesia 90-an** — Doraemon, Sailor Moon, regulasi & kenangan tayang.
-- [ ] 26. **Anime monetisasi** — dari Blu-ray, merchandise, sampe wisata (seichi junrei).
+- [x] 26. **Anime monetisasi** — dari Blu-ray, merchandise, sampe wisata (seichi junrei).
 - [ ] 27. **Kenapa emulator butuh BIOS** — reverse engineering, clean-room, sisi legal emulasi.
 - [ ] 28. **Xbox original** — gimana Microsoft (pendatang) nembus pasar Sony/Nintendo.
 - [ ] 29. **Pac-Man ghost AI** — tiap hantu punya kepribadian & strategi nyata.
