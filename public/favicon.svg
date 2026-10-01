@@ -1,13 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-    <circle class="bg" cx="64" cy="64" r="62" />
-    <circle class="fg" cx="64" cy="35" r="10" />
-    <rect class="fg" x="54" y="54" width="20" height="48" rx="6" />
-    <style>
-        .bg { fill: #2255A4; }
-        .fg { fill: #F7F7F2; }
-        @media (prefers-color-scheme: dark) {
-            .bg { fill: #7EA6EA; }
-            .fg { fill: #111827; }
-        }
-    </style>
+  <rect class="sh" x="16" y="16" width="104" height="104" rx="20"/>
+  <rect class="bg" x="9" y="9" width="104" height="104" rx="20" stroke-width="6"/>
+  <polyline class="fg" points="33,38 61,61 33,84" fill="none" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect class="fgf" x="68" y="80" width="26" height="11" rx="5.5"/>
+  <style>
+    .sh { fill: #111827; }
+    .bg { fill: #9A5B0F; stroke: #111827; }
+    .fg { stroke: #F7F7F2; }
+    .fgf { fill: #F7F7F2; }
+    @media (prefers-color-scheme: dark) {
+      .sh { fill: #8B95A8; }
+      .bg { fill: #FF9F3A; stroke: #8B95A8; }
+      .fg { stroke: #111827; }
+      .fgf { fill: #111827; }
+    }
+  </style>
 </svg>
