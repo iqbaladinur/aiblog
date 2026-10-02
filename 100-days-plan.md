@@ -34,7 +34,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 26. **Anime monetisasi** — dari Blu-ray, merchandise, sampe wisata (seichi junrei).
 - [x] 27. **Kenapa emulator butuh BIOS** — reverse engineering, clean-room, sisi legal emulasi.
 - [x] 28. **Xbox original** — gimana Microsoft (pendatang) nembus pasar Sony/Nintendo.
-- [ ] 29. **Pac-Man ghost AI** — tiap hantu punya kepribadian & strategi nyata.
+- [x] 29. **Pac-Man ghost AI** — tiap hantu punya kepribadian & strategi nyata.
 - [ ] 30. **Cel vs digital** — transisi animasi 90-an ke digicel & kenapa look-nya berubah.
 - [ ] 31. **Shenmue** — ambisi open-world Sega yang ongkosnya nyaris bangkrutin.
 - [ ] 32. **Lavender Town syndrome** — mitos vs fakta sound Pokemon Red/Blue yang bikin anak sakit.
