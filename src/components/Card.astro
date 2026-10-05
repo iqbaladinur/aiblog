@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { getPostUrl } from "@/utils/getPostPaths";
+import { getPostThumbnail } from "@/utils/getPostThumbnail";
 import { toTransitionName } from "@/utils/toTransitionName";
 import Datetime from "./Datetime.astro";
 
@@ -9,8 +10,9 @@ type Props = {
 } & CollectionEntry<"posts">;
 
 const { variant: Heading = "h2", id, data, filePath } = Astro.props;
-
 const { title, description, ...props } = data;
+
+const thumbnail = getPostThumbnail(filePath);
 ---
 
 <li class="ds-card my-7 p-4 sm:p-5">
@@ -27,5 +29,17 @@ const { title, description, ...props } = data;
     </Heading>
   </a>
   <Datetime {...props} />
-  <p>{description}</p>
+  <div class="flex gap-4 items-start">
+    {
+      thumbnail && (
+        <img
+          src={thumbnail}
+          alt=""
+          loading="lazy"
+          class="w-20 h-20 sm:w-24 sm:h-24 object-cover rounded shrink-0"
+        />
+      )
+    }
+    <p>{description}</p>
+  </div>
 </li>
