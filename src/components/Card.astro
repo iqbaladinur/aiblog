@@ -29,14 +29,14 @@ const thumbnail = getPostThumbnail(filePath);
     </Heading>
   </a>
   <Datetime {...props} />
-  <div class="flex gap-4 items-start">
+  <div class="flex gap-4 items-start mt-4">
     {
       thumbnail && (
         <img
           src={thumbnail}
           alt=""
           loading="lazy"
-          class="w-20 h-20 sm:w-24 sm:h-24 object-cover rounded shrink-0"
+          class="ds-card w-20 h-20 sm:w-24 sm:h-24 object-cover rounded shrink-0"
         />
       )
     }
