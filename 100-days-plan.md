@@ -38,7 +38,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 30. **Cel vs digital** — transisi animasi 90-an ke digicel & kenapa look-nya berubah.
 - [x] 31. **Shenmue** — ambisi open-world Sega yang ongkosnya nyaris bangkrutin.
 - [x] 32. **Lavender Town syndrome** — mitos vs fakta sound Pokemon Red/Blue yang bikin anak sakit.
-- [ ] 33. **RG35XX & handheld emu China** — kenapa tiba-tiba murah & booming; chip di dalamnya.
+- [x] 33. **RG35XX & handheld emu China** — kenapa tiba-tiba murah & booming; chip di dalamnya.
 - [ ] 34. **Filler** — kenapa Naruto & kawan-kawan punya episode "nggak di manga".
 - [ ] 35. **Bisnis nada dering** — ringtone & NSP yang pernah jadi industri miliaran dolar.
 - [ ] 36. **Mechanical keyboard comeback** — sejarah switch & kenapa gamer bikin keyboard "hidup lagi".
