@@ -41,7 +41,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 33. **RG35XX & handheld emu China** — kenapa tiba-tiba murah & booming; chip di dalamnya.
 - [x] 34. **Filler** — kenapa Naruto & kawan-kawan punya episode "nggak di manga".
 - [x] 35. **Bisnis nada dering** — ringtone & NSP yang pernah jadi industri miliaran dolar.
-- [ ] 36. **Mechanical keyboard comeback** — sejarah switch & kenapa gamer bikin keyboard "hidup lagi".
+- [x] 36. **Mechanical keyboard comeback** — sejarah switch & kenapa gamer bikin keyboard "hidup lagi".
 - [ ] 37. **Snake** — game bawaan Nokia yang jadi legenda; sejarah & versinya; kenapa desainnya adiktif.
 - [ ] 38. **Production committee anime** — deretan nama perusahaan di credit itu apa; gimana pendanaan anime kerja.
 - [ ] 39. **MiniDisc** — kenapa Sony mati-matian bikin format ini; mekanisme magneto-optical; kultusnya sekarang.
