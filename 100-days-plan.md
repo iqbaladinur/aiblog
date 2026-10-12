@@ -44,7 +44,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 36. **Mechanical keyboard comeback** — sejarah switch & kenapa gamer bikin keyboard "hidup lagi".
 - [x] 37. **Snake** — game bawaan Nokia yang jadi legenda; sejarah & versinya; kenapa desainnya adiktif.
 - [x] 38. **Production committee anime** — deretan nama perusahaan di credit itu apa; gimana pendanaan anime kerja.
-- [ ] 39. **MiniDisc** — kenapa Sony mati-matian bikin format ini; mekanisme magneto-optical; kultusnya sekarang.
+- [x] 39. **MiniDisc** — kenapa Sony mati-matian bikin format ini; mekanisme magneto-optical; kultusnya sekarang.
 - [ ] 40. **Right to repair** — sejarah perang konsumen vs vendor; gimana iFixit jadi garda depan.
 - [ ] 41. **Sound Blaster** — kenapa kartu suara wajib di era DOS; "AdLib compatible?", IRQ/DMA config.
 - [ ] 42. **Media game console** — dari cartridge ke CD ke kartu lagi (Switch); kenapa tiap konsol milih beda.
