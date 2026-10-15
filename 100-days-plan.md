@@ -47,7 +47,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 39. **MiniDisc** — kenapa Sony mati-matian bikin format ini; mekanisme magneto-optical; kultusnya sekarang.
 - [x] 40. **Right to repair** — sejarah perang konsumen vs vendor; gimana iFixit jadi garda depan.
 - [x] 41. **Sound Blaster** — kenapa kartu suara wajib di era DOS; "AdLib compatible?", IRQ/DMA config.
-- [ ] 42. **Media game console** — dari cartridge ke CD ke kartu lagi (Switch); kenapa tiap konsol milih beda.
+- [x] 42. **Media game console** — dari cartridge ke CD ke kartu lagi (Switch); kenapa tiap konsol milih beda.
 - [ ] 43. **Kenapa anime di-reboot?** — beda adaptasi (FMA 2003 vs Brotherhood, HxH): keputusan ngejar manga, beda komite, & kenapa versi lama dianggap "nggak sah".
 - [ ] 44. **N64 cartridge vs CD** — kenapa Square pindah ke PlayStation & ongkos cartridge N64.
 - [ ] 45. **HD-DVD vs Blu-ray** — format war terakhir & siapa yang mutusin.
