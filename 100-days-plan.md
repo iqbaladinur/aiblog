@@ -51,7 +51,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 43. **Kenapa anime di-reboot?** — beda adaptasi (FMA 2003 vs Brotherhood, HxH): keputusan ngejar manga, beda komite, & kenapa versi lama dianggap "nggak sah".
 - [x] 44. **N64 cartridge vs CD** — kenapa Square pindah ke PlayStation & ongkos cartridge N64.
 - [x] 45. **HD-DVD vs Blu-ray** — format war terakhir & siapa yang mutusin.
-- [ ] 46. **Warez & scene culture** — sejarah release group, 0-day, & etika (tanpa tutorial).
+- [x] 46. **Warez & scene culture** — sejarah release group, 0-day, & etika (tanpa tutorial).
 - [x] 47. **Ghibli Museum & merchandise** — gimana waralaba anime monetisasi di luar tayang; eksklusivitas.
 - [ ] 48. **Betamax vs VHS** — kenapa format "lebih bagus" bisa kalah; pelajaran format war buat tech.
 - [ ] 49. **Metal Gear Solid** — Kojima bikin game se-sinematik film; Psycho Mantis & 4th wall.
