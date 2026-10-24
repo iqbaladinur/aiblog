@@ -55,7 +55,7 @@ Rasio target konten: game ~40%, anime ~30%, sisanya hardware/mobile/format/tech 
 - [x] 47. **Ghibli Museum & merchandise** — gimana waralaba anime monetisasi di luar tayang; eksklusivitas.
 - [x] 48. **Betamax vs VHS** — kenapa format "lebih bagus" bisa kalah; pelajaran format war buat tech.
 - [x] 49. **Metal Gear Solid** — Kojima bikin game se-sinematik film; Psycho Mantis & 4th wall.
-- [ ] 50. **DOOM engine** — 3D di PC tanpa GPU: BSP, raycasting, trick id Software.
+- [x] 50. **DOOM engine** — 3D di PC tanpa GPU: BSP, raycasting, trick id Software.
 - [ ] 51. **Sound chip retro** — PSG, FM synthesis (YM2612), SID Commodore; kenapa tiap konsol punya "suara khas".
 - [ ] 52. **CRT vs LCD buat retro** — latency, scanline, 240p; kenapa CRT masih dipuja & diburu.
 - [ ] 53. **Kenapa barang retro "naik harga"** — ekonomi kolektor game & konsol bekas; bubble atau permanen?
